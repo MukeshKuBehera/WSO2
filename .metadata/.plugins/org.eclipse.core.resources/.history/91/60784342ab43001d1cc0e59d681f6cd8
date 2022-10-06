@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/test" name="Hello_API" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET">
+        <inSequence>
+            <property name="HTTP_SC" scope="transport" type="STRING" value="200"/>
+            <payloadFactory media-type="text">
+                <format>
+                   Get Response
+                </format>
+                <args/>
+            </payloadFactory>
+            <property expression="get-property('registry','conf:/_system/config/endpoints/New.xml')" name="Registry" scope="default" type="OM"/>
+            <log level="custom">
+                <property expression="get-property('Registry')" name="Registry"/>
+            </log>
+            <header expression="get-property('Token')" name="Authorization" scope="transport"/>
+            <log level="custom">
+                <property expression="get-property('Token')" name="PropertyToken"/>
+            </log>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>

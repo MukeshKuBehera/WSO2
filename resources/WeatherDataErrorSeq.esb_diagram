@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/integrationstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_LLIIUEViEe2tQ8JR9pAqQA" type="Esb" name="WeatherDataErrorSeq" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_LLt-MUViEe2tQ8JR9pAqQA" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_LLt-NkViEe2tQ8JR9pAqQA" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_LWS2gEViEe2tQ8JR9pAqQA" type="3614">
+        <children xmi:type="notation:Node" xmi:id="_LWS2hUViEe2tQ8JR9pAqQA" type="3615">
+          <children xmi:type="notation:DecorationNode" xmi:id="_LWS2ikViEe2tQ8JR9pAqQA" type="7035">
+            <children xmi:type="notation:Node" xmi:id="_LW5TcEViEe2tQ8JR9pAqQA" type="3495">
+              <children xmi:type="notation:DecorationNode" xmi:id="_LW5TdUViEe2tQ8JR9pAqQA" type="5168"/>
+              <children xmi:type="notation:Node" xmi:id="_LW5TdkViEe2tQ8JR9pAqQA" type="3018">
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_LW5Td0ViEe2tQ8JR9pAqQA"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_LW5TeEViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_LW5TeUViEe2tQ8JR9pAqQA"/>
+                <element xmi:type="esb:LogMediatorInputConnector" href="WeatherDataErrorSeq.esb#//@server/@children.0/@mediatorFlow/@children.0/@inputConnector"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LW5TekViEe2tQ8JR9pAqQA" x="-6" y="-5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_LW5Te0ViEe2tQ8JR9pAqQA" type="3019">
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_LW5TfEViEe2tQ8JR9pAqQA"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_LW5TfUViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_LW5TfkViEe2tQ8JR9pAqQA"/>
+                <element xmi:type="esb:LogMediatorOutputConnector" href="WeatherDataErrorSeq.esb#//@server/@children.0/@mediatorFlow/@children.0/@outputConnector"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LW5Tf0ViEe2tQ8JR9pAqQA" x="64" y="-9"/>
+              </children>
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_LW5TcUViEe2tQ8JR9pAqQA"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_LW5TckViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_LW5Tc0ViEe2tQ8JR9pAqQA"/>
+              <element xmi:type="esb:LogMediator" href="WeatherDataErrorSeq.esb#//@server/@children.0/@mediatorFlow/@children.0"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LW5TdEViEe2tQ8JR9pAqQA" x="25" y="89" width="84" height="115"/>
+            </children>
+            <styles xmi:type="notation:TitleStyle" xmi:id="_LWS2i0ViEe2tQ8JR9pAqQA" showTitle="true"/>
+          </children>
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_LWS2hkViEe2tQ8JR9pAqQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_LWS2h0ViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_LWS2iEViEe2tQ8JR9pAqQA"/>
+          <element xmi:type="esb:MediatorFlow" href="WeatherDataErrorSeq.esb#//@server/@children.0/@mediatorFlow"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LWS2iUViEe2tQ8JR9pAqQA"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_LWS2jEViEe2tQ8JR9pAqQA" type="3616">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_LWS2jUViEe2tQ8JR9pAqQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_LWS2jkViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_LWS2j0ViEe2tQ8JR9pAqQA"/>
+          <element xmi:type="esb:SequencesInputConnector" href="WeatherDataErrorSeq.esb#//@server/@children.0/@inputConnector"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LWS2kEViEe2tQ8JR9pAqQA" x="-11" y="-9"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_LWS2kUViEe2tQ8JR9pAqQA" type="3617">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_LWS2kkViEe2tQ8JR9pAqQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_LWS2k0ViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_LWS2lEViEe2tQ8JR9pAqQA"/>
+          <element xmi:type="esb:SequencesOutputConnector" href="WeatherDataErrorSeq.esb#//@server/@children.0/@outputConnector"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LWS2lUViEe2tQ8JR9pAqQA" x="-11" y="-9"/>
+        </children>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_LWS2gUViEe2tQ8JR9pAqQA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_LWS2gkViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_LWS2g0ViEe2tQ8JR9pAqQA"/>
+        <element xmi:type="esb:Sequences" href="WeatherDataErrorSeq.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LWS2hEViEe2tQ8JR9pAqQA" width="195" height="125"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_LLt-MkViEe2tQ8JR9pAqQA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_LLt-M0ViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_LLt-NEViEe2tQ8JR9pAqQA"/>
+    <element xmi:type="esb:EsbServer" href="WeatherDataErrorSeq.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LLt-NUViEe2tQ8JR9pAqQA"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_LLIIUUViEe2tQ8JR9pAqQA"/>
+  <element xmi:type="esb:EsbDiagram" href="WeatherDataErrorSeq.esb#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_LXV_YEViEe2tQ8JR9pAqQA" type="4001" source="_LWS2kUViEe2tQ8JR9pAqQA" target="_LW5TdkViEe2tQ8JR9pAqQA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_LXV_YUViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="WeatherDataErrorSeq.esb#//@server/@children.0/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LXV_YkViEe2tQ8JR9pAqQA" points="[6, 9, 0, -1]$[0, 5, -6, -5]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_LXfJUEViEe2tQ8JR9pAqQA" type="4001" source="_LW5Te0ViEe2tQ8JR9pAqQA" target="_LWS2jEViEe2tQ8JR9pAqQA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_LXfJUUViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="WeatherDataErrorSeq.esb#//@server/@children.0/@mediatorFlow/@children.0/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LXfJUkViEe2tQ8JR9pAqQA" points="[-11, -2, 65, 8]$[-65, -9, 11, 1]"/>
+  </edges>
+</notation:Diagram>

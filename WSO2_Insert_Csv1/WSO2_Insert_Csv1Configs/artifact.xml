@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="Wso2_IE" groupId="com.temp.inbound-endpoint" version="1.0.0" type="synapse/inbound-endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/inbound-endpoints/Wso2_IE.xml</file>
+    </artifact>
+    <artifact name="Sucess_SEQ" groupId="com.temp.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/Sucess_SEQ.xml</file>
+    </artifact>
+    <artifact name="Error_SEQ" groupId="com.temp.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/Error_SEQ.xml</file>
+    </artifact>
+</artifacts>

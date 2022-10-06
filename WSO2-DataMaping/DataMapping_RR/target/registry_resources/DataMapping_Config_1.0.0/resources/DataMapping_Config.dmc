@@ -1,0 +1,17 @@
+map_S_CustomerInformation_S_Customer = function(){ 
+var outputCustomer={};
+var SPLIT_2_0 = '';
+
+SPLIT_2_0 = inputCustomerInformation.Address.split('-');
+outputCustomer =  {};
+outputCustomer.Name = inputCustomerInformation.FName.toString().concat('',inputCustomerInformation.LName);
+outputCustomer.DOB = inputCustomerInformation.DOB;
+outputCustomer.Address1 = SPLIT_2_0[0];
+outputCustomer.Address2 = SPLIT_2_0[1];
+return outputCustomer;
+};
+
+
+
+
+

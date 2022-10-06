@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/integrationstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_J-jAcEViEe2tQ8JR9pAqQA" type="Esb" name="WeatherDataTransmitInboundEP" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_J-_sYkViEe2tQ8JR9pAqQA" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_J-_sZ0ViEe2tQ8JR9pAqQA" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_KFQFYEViEe2tQ8JR9pAqQA" type="3767">
+        <children xmi:type="notation:Node" xmi:id="_KFQFZUViEe2tQ8JR9pAqQA" type="3768">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_KFQFZkViEe2tQ8JR9pAqQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_KFQFZ0ViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_KFQFaEViEe2tQ8JR9pAqQA"/>
+          <element xmi:type="esb:InboundEndpointSequenceInputConnector" href="WeatherDataTransmitInboundEP.esb#//@server/@children.0/@sequenceInputConnector"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KFQFaUViEe2tQ8JR9pAqQA" x="-6" y="-5"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_KFQFakViEe2tQ8JR9pAqQA" type="3769">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_KFQFa0ViEe2tQ8JR9pAqQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_KFQFbEViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_KFQFbUViEe2tQ8JR9pAqQA"/>
+          <element xmi:type="esb:InboundEndpointSequenceOutputConnector" href="WeatherDataTransmitInboundEP.esb#//@server/@children.0/@sequenceOutputConnector"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KFQFbkViEe2tQ8JR9pAqQA" x="86" y="-29"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_KFQFb0ViEe2tQ8JR9pAqQA" type="3770">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_KFQFcEViEe2tQ8JR9pAqQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_KFQFcUViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_KFQFckViEe2tQ8JR9pAqQA"/>
+          <element xmi:type="esb:InboundEndpointOnErrorSequenceInputConnector" href="WeatherDataTransmitInboundEP.esb#//@server/@children.0/@onErrorSequenceInputConnector"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KFQFc0ViEe2tQ8JR9pAqQA" x="-6" y="-5"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_KFZ2YEViEe2tQ8JR9pAqQA" type="3771">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_KFZ2YUViEe2tQ8JR9pAqQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_KFZ2YkViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_KFZ2Y0ViEe2tQ8JR9pAqQA"/>
+          <element xmi:type="esb:InboundEndpointOnErrorSequenceOutputConnector" href="WeatherDataTransmitInboundEP.esb#//@server/@children.0/@onErrorSequenceOutputConnector"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KFZ2ZEViEe2tQ8JR9pAqQA" x="86" y="19"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_KFZ2ZUViEe2tQ8JR9pAqQA" type="3772" fontName="Segoe UI">
+          <element xmi:type="esb:InboundEndpointContainer" href="WeatherDataTransmitInboundEP.esb#//@server/@children.0/@container"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KFZ2ZkViEe2tQ8JR9pAqQA"/>
+        </children>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_KFQFYUViEe2tQ8JR9pAqQA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_KFQFYkViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_KFQFY0ViEe2tQ8JR9pAqQA"/>
+        <element xmi:type="esb:InboundEndpoint" href="WeatherDataTransmitInboundEP.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KFQFZEViEe2tQ8JR9pAqQA" width="300" height="400"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_J-_sY0ViEe2tQ8JR9pAqQA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_J-_sZEViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_J-_sZUViEe2tQ8JR9pAqQA"/>
+    <element xmi:type="esb:EsbServer" href="WeatherDataTransmitInboundEP.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J-_sZkViEe2tQ8JR9pAqQA"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_J-jAcUViEe2tQ8JR9pAqQA"/>
+  <element xmi:type="esb:EsbDiagram" href="WeatherDataTransmitInboundEP.esb#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_KGcYMEViEe2tQ8JR9pAqQA" type="4001" source="_KFQFakViEe2tQ8JR9pAqQA" target="_KF_sQEViEe2tQ8JR9pAqQA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_KGcYMUViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="WeatherDataTransmitInboundEP.esb#//@server/@children.0/@sequenceOutputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KGcYMkViEe2tQ8JR9pAqQA" points="[5, 5, -12, -11]$[11, 11, -6, -5]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_KGmJMEViEe2tQ8JR9pAqQA" type="4001" source="_KFZ2YEViEe2tQ8JR9pAqQA" target="_KGTOQEViEe2tQ8JR9pAqQA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_KGmJMUViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="WeatherDataTransmitInboundEP.esb#//@server/@children.0/@onErrorSequenceOutputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KGmJMkViEe2tQ8JR9pAqQA" points="[6, 5, -11, 0]$[11, 0, -6, -5]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_KGmJM0ViEe2tQ8JR9pAqQA" type="4001" source="_KGTORUViEe2tQ8JR9pAqQA" target="_KFQFb0ViEe2tQ8JR9pAqQA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_KGmJNEViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="WeatherDataTransmitInboundEP.esb#//@server/@children.0/@container/@onErrorSequenceContainer/@mediatorFlow/@children.0/@outputConnector.0/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KGmJNUViEe2tQ8JR9pAqQA" points="[-6, -2, 103, 27]$[-103, -28, 6, 1]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_KGmJNkViEe2tQ8JR9pAqQA" type="4001" source="_KF_sRUViEe2tQ8JR9pAqQA" target="_KFQFZUViEe2tQ8JR9pAqQA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_KGmJN0ViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="WeatherDataTransmitInboundEP.esb#//@server/@children.0/@container/@sequenceContainer/@mediatorFlow/@children.0/@outputConnector.0/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KGmJOEViEe2tQ8JR9pAqQA" points="[-6, 0, 103, -8]$[-103, 7, 6, -1]"/>
+  </edges>
+</notation:Diagram>

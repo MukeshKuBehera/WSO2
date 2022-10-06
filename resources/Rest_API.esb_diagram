@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/integrationstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_mZ9kND7rEe2sYNpsjaWFcw" type="Esb" name="rest_API" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_majaEj7rEe2sYNpsjaWFcw" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_majaFz7rEe2sYNpsjaWFcw" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_mgzzED7rEe2sYNpsjaWFcw" type="3668" fontName="Segoe UI">
+        <children xmi:type="notation:BasicCompartment" xmi:id="_mgzzEj7rEe2sYNpsjaWFcw" type="7044">
+          <children xmi:type="notation:Node" xmi:id="_mg9kED7rEe2sYNpsjaWFcw" type="3669">
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_mg9kET7rEe2sYNpsjaWFcw"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_mg9kEj7rEe2sYNpsjaWFcw" fontName="Segoe UI"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_mg9kEz7rEe2sYNpsjaWFcw"/>
+            <element xmi:type="esb:APIResource" href="rest_API.esb#//@server/@children.0/@resources.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mg9kFD7rEe2sYNpsjaWFcw" width="300" height="400"/>
+          </children>
+        </children>
+        <element xmi:type="esb:SynapseAPI" href="rest_API.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mgzzET7rEe2sYNpsjaWFcw" width="640" height="500"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_majaEz7rEe2sYNpsjaWFcw"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_majaFD7rEe2sYNpsjaWFcw" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_majaFT7rEe2sYNpsjaWFcw"/>
+    <element xmi:type="esb:EsbServer" href="rest_API.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_majaFj7rEe2sYNpsjaWFcw"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_mZ9kNT7rEe2sYNpsjaWFcw"/>
+  <element xmi:type="esb:EsbDiagram" href="rest_API.esb#/"/>
+</notation:Diagram>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="Request" groupId="com.test.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseIntegrator">
+        <item>
+            <file>Request.xsd</file>
+            <path>/_system/governance/contacts</path>
+            <mediaType>application/x-xsd+xml</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="Response" groupId="com.test.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseIntegrator">
+        <item>
+            <file>Response.xsd</file>
+            <path>/_system/governance/contacts</path>
+            <mediaType>application/x-xsd+xml</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="DataMapping_Config" groupId="com.test.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>DataMapping_Config.dmc</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="DataMapping_Config_inputSchema" groupId="com.test.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>DataMapping_Config_inputSchema.json</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="DataMapping_Config_outputSchema" groupId="com.test.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>DataMapping_Config_outputSchema.json</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+    <artifact name="DataMapping_Config_xsltStyleSheet" groupId="com.test.resource" version="1.0.0" type="registry/resource" serverRole="EnterpriseServiceBus">
+        <item>
+            <file>DataMapping_Config_xsltStyleSheet.xml</file>
+            <path>/_system/governance/datamapper</path>
+            <mediaType>text/plain</mediaType>
+            <properties/>
+        </item>
+    </artifact>
+</artifacts>

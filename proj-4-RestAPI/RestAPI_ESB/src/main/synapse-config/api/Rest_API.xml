@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/todos" name="Rest_API" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" uri-template="/{id}">
+        <inSequence>
+            <log>
+                <property name="--ReadingValue----" value="--ReadingValue----"/>
+            </log>
+            <property expression="$url:id" name="--Reading-Key-Value----" scope="default" type="STRING"/>
+            <call>
+                <endpoint key="GETDETAILS_API"/>
+            </call>
+            <property expression="$url:id" name="--After-Reading-Value---" scope="default" type="STRING"/>
+            <log>
+                <property expression="get-property('uri.var.id')" name="--After-Reading-Value----"/>
+            </log>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>

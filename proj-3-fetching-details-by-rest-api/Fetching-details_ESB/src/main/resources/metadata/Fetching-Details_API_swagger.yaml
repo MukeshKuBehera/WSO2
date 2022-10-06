@@ -1,0 +1,19 @@
+openapi: 3.0.1
+info:
+  title: Fetching-Details_API
+  description: API Definition of Fetching-Details_API
+  version: 1.0.0
+servers:
+- url: http://localhost:8290/getdata
+paths:
+  /{variable}:
+    get:
+      parameters:
+      - name: variable
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        default:
+          description: Default response

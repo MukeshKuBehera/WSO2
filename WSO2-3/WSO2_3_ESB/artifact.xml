@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="Calculator_API" groupId="com.temp.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/Calculator_API.xml</file>
+    </artifact>
+    <artifact name="Calculator_API_swagger" groupId="com.temp.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/Calculator_API_swagger.yaml</file>
+    </artifact>
+    <artifact name="Calculator_API_metadata" groupId="com.temp.metadata" version="1.0.0" type="synapse/metadata" serverRole="EnterpriseServiceBus">
+        <file>src/main/resources/metadata/Calculator_API_metadata.yaml</file>
+    </artifact>
+    <artifact name="EndPoint_EP" groupId="com.temp.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/EndPoint_EP.xml</file>
+    </artifact>
+    <artifact name="A1_sequence" groupId="com.temp.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/A1_sequence.xml</file>
+    </artifact>
+</artifacts>

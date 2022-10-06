@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/integrationstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_S44uIEV2Ee2IwffwTKve5g" type="Esb" name="Kafka_EP" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_S5jcgEV2Ee2IwffwTKve5g" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_S5jchUV2Ee2IwffwTKve5g" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_VcTtIEV2Ee2IwffwTKve5g" type="3767">
+        <children xmi:type="notation:Node" xmi:id="_VcZzwEV2Ee2IwffwTKve5g" type="3768">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_VcZzwUV2Ee2IwffwTKve5g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_VcZzwkV2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_VcZzw0V2Ee2IwffwTKve5g"/>
+          <element xmi:type="esb:InboundEndpointSequenceInputConnector" href="Kafka_EP.esb#//@server/@children.0/@sequenceInputConnector"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VcZzxEV2Ee2IwffwTKve5g" x="-6" y="-5"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_VcZzxUV2Ee2IwffwTKve5g" type="3769">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_VcZzxkV2Ee2IwffwTKve5g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_VcZzx0V2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_VcZzyEV2Ee2IwffwTKve5g"/>
+          <element xmi:type="esb:InboundEndpointSequenceOutputConnector" href="Kafka_EP.esb#//@server/@children.0/@sequenceOutputConnector"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VcZzyUV2Ee2IwffwTKve5g" x="86" y="-29"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_VcZzykV2Ee2IwffwTKve5g" type="3770">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_VcZzy0V2Ee2IwffwTKve5g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_VcZzzEV2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_VcZzzUV2Ee2IwffwTKve5g"/>
+          <element xmi:type="esb:InboundEndpointOnErrorSequenceInputConnector" href="Kafka_EP.esb#//@server/@children.0/@onErrorSequenceInputConnector"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VcZzzkV2Ee2IwffwTKve5g" x="-6" y="-5"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_VcZzz0V2Ee2IwffwTKve5g" type="3771">
+          <styles xmi:type="notation:DescriptionStyle" xmi:id="_VcZz0EV2Ee2IwffwTKve5g"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_VcZz0UV2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+          <styles xmi:type="notation:LineStyle" xmi:id="_VcZz0kV2Ee2IwffwTKve5g"/>
+          <element xmi:type="esb:InboundEndpointOnErrorSequenceOutputConnector" href="Kafka_EP.esb#//@server/@children.0/@onErrorSequenceOutputConnector"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VcZz00V2Ee2IwffwTKve5g" x="86" y="19"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_VcZz1EV2Ee2IwffwTKve5g" type="3772" fontName="Segoe UI">
+          <element xmi:type="esb:InboundEndpointContainer" href="Kafka_EP.esb#//@server/@children.0/@container"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VcZz1UV2Ee2IwffwTKve5g"/>
+        </children>
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_VcTtIUV2Ee2IwffwTKve5g"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_VcTtIkV2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_VcTtI0V2Ee2IwffwTKve5g"/>
+        <element xmi:type="esb:InboundEndpoint" href="Kafka_EP.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VcTtJEV2Ee2IwffwTKve5g" width="300" height="400"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_S5jcgUV2Ee2IwffwTKve5g"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_S5jcgkV2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_S5jcg0V2Ee2IwffwTKve5g"/>
+    <element xmi:type="esb:EsbServer" href="Kafka_EP.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S5jchEV2Ee2IwffwTKve5g"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_S44uIUV2Ee2IwffwTKve5g"/>
+  <element xmi:type="esb:EsbDiagram" href="Kafka_EP.esb#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_VeHrAEV2Ee2IwffwTKve5g" type="4001" source="_VcZzxUV2Ee2IwffwTKve5g" target="_VdpJ4EV2Ee2IwffwTKve5g" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_VeHrAUV2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="Kafka_EP.esb#//@server/@children.0/@sequenceOutputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VeHrAkV2Ee2IwffwTKve5g" points="[5, 5, -12, -11]$[11, 11, -6, -5]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_VeT4QEV2Ee2IwffwTKve5g" type="4001" source="_VcZzz0V2Ee2IwffwTKve5g" target="_Vd7dxkV2Ee2IwffwTKve5g" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_VeT4QUV2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="Kafka_EP.esb#//@server/@children.0/@onErrorSequenceOutputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VeT4QkV2Ee2IwffwTKve5g" points="[6, 5, -11, 0]$[11, 0, -6, -5]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_VeT4Q0V2Ee2IwffwTKve5g" type="4001" source="_VeBkYEV2Ee2IwffwTKve5g" target="_VcZzykV2Ee2IwffwTKve5g" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_VeT4REV2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="Kafka_EP.esb#//@server/@children.0/@container/@onErrorSequenceContainer/@mediatorFlow/@children.0/@outputConnector.0/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VeT4RUV2Ee2IwffwTKve5g" points="[-6, -2, 103, 27]$[-103, -28, 6, 1]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_VeZ-4EV2Ee2IwffwTKve5g" type="4001" source="_VdvQgEV2Ee2IwffwTKve5g" target="_VcZzwEV2Ee2IwffwTKve5g" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_VeZ-4UV2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="Kafka_EP.esb#//@server/@children.0/@container/@sequenceContainer/@mediatorFlow/@children.0/@outputConnector.0/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VeZ-4kV2Ee2IwffwTKve5g" points="[-6, 0, 103, -8]$[-103, 7, 6, -1]"/>
+  </edges>
+</notation:Diagram>

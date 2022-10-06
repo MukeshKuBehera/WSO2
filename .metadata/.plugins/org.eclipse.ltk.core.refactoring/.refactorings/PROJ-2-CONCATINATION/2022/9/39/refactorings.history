@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;PROJ-2-CONCATINATION/FULLNAME_ESB/src/main/synapse-config/api/Cancat_API.xml&apos; to &apos;Concat_API.xml&apos;" description="Rename resource &apos;Cancat_API.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="FULLNAME_ESB/src/main/synapse-config/api/Cancat_API.xml" name="Concat_API.xml" stamp="1663669599340" updateReferences="true"/>
+</session>

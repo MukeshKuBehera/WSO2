@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/std" name="DataLookUp_API" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" uri-template="/get/{id}">
+        <inSequence>
+            <property expression="$ctx:uri.var.id" name="id" scope="default" type="STRING"/>
+            <log level="custom">
+                <property expression="$ctx:uri.var.id" name="id"/>
+            </log>
+            <dblookup>
+                <connection>
+                    <pool>
+                        <driver>com.mysql.jdbc.Driver</driver>
+                        <url>jdbc:mysql://localhost:3306/test</url>
+                        <user>root</user>
+                        <password>root</password>
+                    </pool>
+                </connection>
+                <statement>
+                    <sql><![CDATA[SELECT id,name,dept FROM student_details WHERE id=?]]></sql>
+                    <parameter expression="$ctx:id" type="NUMERIC"/>
+                    <result column="dept" name="StudentDept"/>
+                    <result column="name" name="StudentName"/>
+                    <result column="id" name="StudentID"/>
+                </statement>
+            </dblookup>
+            <payloadFactory media-type="json">
+                <format>{&#xd;
+"id":$1,&#xd;
+"name":"$2",&#xd;
+"dept":"$3"&#xd;
+}</format>
+                <args>
+                    <arg evaluator="xml" expression="get-property('StudentID')"/>
+                    <arg evaluator="xml" expression="get-property('StudentName')"/>
+                    <arg evaluator="xml" expression="get-property('StudentDept')"/>
+                </args>
+            </payloadFactory>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>

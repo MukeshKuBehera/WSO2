@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/getdata" name="Fetching-Details_API" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" uri-template="/{variable}">
+        <inSequence>
+            <property expression="$ctx:uri.var.variable" name="uri.var.variable" scope="default" type="STRING"/>
+            <log level="custom">
+                <property expression="$ctx:uri.var.variable" name="uri.var.variable"/>
+            </log>
+            <call>
+                <endpoint key="Fetching-Details_END"/>
+            </call>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>

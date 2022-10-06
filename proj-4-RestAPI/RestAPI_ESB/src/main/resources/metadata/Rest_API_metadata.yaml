@@ -1,0 +1,11 @@
+---
+key: "Rest_API-1.0.0"
+name : "Rest_API"
+displayName : "Rest_API"
+description: "Sample API"
+version: "1.0.0"
+serviceUrl: "https://{MI_HOST}:{MI_PORT}/employee"
+definitionType: "OAS3"
+securityType: "BASIC"
+mutualSSLEnabled: false
+apiId : "null"

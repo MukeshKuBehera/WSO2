@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/db2samplecrud" name="DB2SMPLE_API" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="PUT" url-mapping="/sampleUpdate">
+        <inSequence>
+            <property expression="json-eval($)" name="JsonPayLoad" scope="default" type="STRING"/>
+            <log level="custom">
+                <property name="+++ Inside Update ++++" value="+++ Inside Update ++++"/>
+                <property expression="json-eval($)" name="JSON_PAYLOAD"/>
+            </log>
+            <call>
+                <endpoint key="SampleUpdate_EP"/>
+            </call>
+            <log level="custom">
+                <property expression="json-eval($)" name="Response_PayLoad"/>
+            </log>
+            <property expression="get-property('axis2','HTTP_SC')" name="HTTP_SC" scope="default" type="STRING"/>
+            <log level="custom">
+                <property expression="get-property('HTTP_SC')" name="StatusPrinter"/>
+            </log>
+            <filter regex="true" source="boolean(get-property('HTTP_SC')=202)">
+                <then>
+                    <log>
+                        <property name="++Updated Succesfully++" value="+++Succesfully inserted++"/>
+                    </log>
+                    <property name="StatusDisp" scope="default" type="STRING" value="Updated Succesfully"/>
+                    <payloadFactory media-type="json">
+                        <format>{&#xd;
+	"status":"$1&#xd;
+   "DataForUpdate":"$2"&#xd;
+}</format>
+                        <args>
+                            <arg literal="true" value="UpdationSuccesfull"/>
+                            <arg evaluator="json" expression="get-property('JsonPayLoad')"/>
+                        </args>
+                    </payloadFactory>
+                </then>
+                <else>
+                    <log>
+                        <property name="+++Update Failed+++" value="+++Update Failed+++"/>
+                    </log>
+                </else>
+            </filter>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>

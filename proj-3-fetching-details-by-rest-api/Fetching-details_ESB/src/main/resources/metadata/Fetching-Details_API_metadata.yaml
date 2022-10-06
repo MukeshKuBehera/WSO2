@@ -1,0 +1,11 @@
+---
+key: "Fetching-Details_API-1.0.0"
+name : "Fetching-Details_API"
+displayName : "Fetching-Details_API"
+description: "Sample API"
+version: "1.0.0"
+serviceUrl: "https://{MI_HOST}:{MI_PORT}/getdata"
+definitionType: "OAS3"
+securityType: "BASIC"
+mutualSSLEnabled: false
+apiId : "null"

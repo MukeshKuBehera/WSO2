@@ -1,0 +1,13 @@
+openapi: 3.0.1
+info:
+  title: Kafka_API
+  description: API Definition of Kafka_API
+  version: 1.0.0
+servers:
+- url: http://localhost:8290/sample
+paths:
+  /:
+    post:
+      responses:
+        default:
+          description: Default response

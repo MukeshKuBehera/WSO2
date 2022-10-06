@@ -1,0 +1,11 @@
+---
+key: "ForEach_API-1.0.0"
+name : "ForEach_API"
+displayName : "ForEach_API"
+description: "Sample API"
+version: "1.0.0"
+serviceUrl: "https://{MI_HOST}:{MI_PORT}/foreach"
+definitionType: "OAS3"
+securityType: "BASIC"
+mutualSSLEnabled: false
+apiId : "null"

@@ -1,0 +1,21 @@
+openapi: 3.0.1
+info:
+  title: DataLookUp_API
+  description: API Definition of DataLookUp_API
+  version: 1.0.0
+servers:
+- url: http://localhost:8290/std
+paths:
+  /get/{id}:
+    get:
+      parameters:
+      - name: id
+        in: path
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: string
+      responses:
+        default:
+          description: Default response

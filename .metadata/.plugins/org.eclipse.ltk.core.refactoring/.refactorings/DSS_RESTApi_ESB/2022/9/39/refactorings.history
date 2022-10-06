@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;DSS_RESTApi_ESB/src/main/synapse-config/endpoints/GetStd_EP.xml&apos; to &apos;GET_EP.xml&apos;" description="Rename resource &apos;GetStd_EP.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/synapse-config/endpoints/GetStd_EP.xml" name="GET_EP.xml" stamp="1663853082842" updateReferences="true"/>
+</session>

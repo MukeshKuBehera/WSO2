@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/integrationstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_NBESMD7_Ee2COexw0l2fsA" type="Esb" name="Wso2_IE" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_NDDPMD7_Ee2COexw0l2fsA" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_NDDPNT7_Ee2COexw0l2fsA" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_NY6xgD7_Ee2COexw0l2fsA" type="3767">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_NY6xgT7_Ee2COexw0l2fsA"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_NY6xgj7_Ee2COexw0l2fsA" fontName="Segoe UI"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_NY6xgz7_Ee2COexw0l2fsA"/>
+        <element xmi:type="esb:InboundEndpoint" href="Wso2_IE.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NY6xhD7_Ee2COexw0l2fsA" width="300" height="400"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_NDDPMT7_Ee2COexw0l2fsA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_NDDPMj7_Ee2COexw0l2fsA" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_NDDPMz7_Ee2COexw0l2fsA"/>
+    <element xmi:type="esb:EsbServer" href="Wso2_IE.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NDDPND7_Ee2COexw0l2fsA"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_NBESMT7_Ee2COexw0l2fsA"/>
+  <element xmi:type="esb:EsbDiagram" href="Wso2_IE.esb#/"/>
+</notation:Diagram>

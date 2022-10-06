@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/result" name="Calculator_API" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="POST">
+        <inSequence>
+            <propertyGroup>
+                <property expression="json-eval($.firstname)" name="fname" scope="default" type="STRING"/>
+                <property expression="json-eval($.lastname)" name="lname" scope="default" type="STRING"/>
+                <property expression="json-eval($.id)" name="id" scope="default" type="STRING"/>
+                <property expression="json-eval($.dept)" name="dept" scope="default" type="STRING"/>
+            </propertyGroup>
+            <log>
+                <property expression="get-property('fname')" name="FirstName"/>
+                <property expression="get-property('lname')" name="LastName"/>
+                <property expression="get-property('id')" name="ID"/>
+                <property expression="get-property('dept')" name="DEPT"/>
+            </log>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>

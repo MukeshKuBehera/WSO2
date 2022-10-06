@@ -1,0 +1,23 @@
+openapi: 3.0.1
+info:
+  title: DB2SMPLE_API
+  description: API Definition of DB2SMPLE_API
+  version: 1.0.0
+servers:
+- url: http://localhost:8290/db2samplecrud
+paths:
+  /sampleUpdate:
+    put:
+      requestBody:
+        description: Sample Payload
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                payload:
+                  type: object
+        required: false
+      responses:
+        default:
+          description: Default response

@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/integrationstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_BL3p4EViEe2tQ8JR9pAqQA" type="Esb" name="ArithmaticOperationServiceAPI" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_BMwaskViEe2tQ8JR9pAqQA" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_BMwat0ViEe2tQ8JR9pAqQA" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_BV_2QEViEe2tQ8JR9pAqQA" type="3668" fontName="Segoe UI">
+        <children xmi:type="notation:BasicCompartment" xmi:id="_BV_2QkViEe2tQ8JR9pAqQA" type="7044">
+          <children xmi:type="notation:Node" xmi:id="_BWJAMEViEe2tQ8JR9pAqQA" type="3669">
+            <children xmi:type="notation:Node" xmi:id="_BWJANUViEe2tQ8JR9pAqQA" type="3670">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_BWJANkViEe2tQ8JR9pAqQA"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_BWJAN0ViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_BWJAOEViEe2tQ8JR9pAqQA"/>
+              <element xmi:type="esb:APIResourceInputConnector" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@inputConnector"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BWJAOUViEe2tQ8JR9pAqQA" x="86" y="-11"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_BWJAOkViEe2tQ8JR9pAqQA" type="3671">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_BWJAO0ViEe2tQ8JR9pAqQA"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_BWJAPEViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_BWJAPUViEe2tQ8JR9pAqQA"/>
+              <element xmi:type="esb:APIResourceOutputConnector" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@outputConnector"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BWJAPkViEe2tQ8JR9pAqQA" x="86" y="-23"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_BWJAP0ViEe2tQ8JR9pAqQA" type="3730">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_BWJAQEViEe2tQ8JR9pAqQA"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_BWJAQUViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_BWJAQkViEe2tQ8JR9pAqQA"/>
+              <element xmi:type="esb:APIResourceOutSequenceOutputConnector" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@outSequenceOutputConnector"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BWJAQ0ViEe2tQ8JR9pAqQA" x="110" y="-11"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_BWJAREViEe2tQ8JR9pAqQA" type="3672">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_BWJARUViEe2tQ8JR9pAqQA"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_BWJARkViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_BWJAR0ViEe2tQ8JR9pAqQA"/>
+              <element xmi:type="esb:APIResourceFaultInputConnector" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@faultInputConnector"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BWJASEViEe2tQ8JR9pAqQA" x="86" y="7"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_BWJASUViEe2tQ8JR9pAqQA" type="3673">
+              <children xmi:type="notation:Node" xmi:id="_BWSxMEViEe2tQ8JR9pAqQA" type="3487">
+                <children xmi:type="notation:Node" xmi:id="_BWciMEViEe2tQ8JR9pAqQA" type="3608">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_BWciNUViEe2tQ8JR9pAqQA" type="7034">
+                    <children xmi:type="notation:Node" xmi:id="_BWvdIEViEe2tQ8JR9pAqQA" type="3495">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_BWvdJUViEe2tQ8JR9pAqQA" type="5168"/>
+                      <children xmi:type="notation:Node" xmi:id="_BW5OIEViEe2tQ8JR9pAqQA" type="3018">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_BW5OIUViEe2tQ8JR9pAqQA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_BW5OIkViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_BW5OI0ViEe2tQ8JR9pAqQA"/>
+                        <element xmi:type="esb:LogMediatorInputConnector" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BW5OJEViEe2tQ8JR9pAqQA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_BW5OJUViEe2tQ8JR9pAqQA" type="3019">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_BW5OJkViEe2tQ8JR9pAqQA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_BW5OJ0ViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_BW5OKEViEe2tQ8JR9pAqQA"/>
+                        <element xmi:type="esb:LogMediatorOutputConnector" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BW5OKUViEe2tQ8JR9pAqQA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_BWvdIUViEe2tQ8JR9pAqQA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_BWvdIkViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_BWvdI0ViEe2tQ8JR9pAqQA"/>
+                      <element xmi:type="esb:LogMediator" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BWvdJEViEe2tQ8JR9pAqQA" x="25" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_BXMJEEViEe2tQ8JR9pAqQA" type="3498">
+                      <children xmi:type="notation:Node" xmi:id="_BXo1AEViEe2tQ8JR9pAqQA" type="3042">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_BXo1AUViEe2tQ8JR9pAqQA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_BXo1AkViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_BXo1A0ViEe2tQ8JR9pAqQA"/>
+                        <element xmi:type="esb:SwitchMediatorInputConnector" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BXo1BEViEe2tQ8JR9pAqQA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_BXo1BUViEe2tQ8JR9pAqQA" type="3499">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_BXo1BkViEe2tQ8JR9pAqQA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_BXo1B0ViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_BXo1CEViEe2tQ8JR9pAqQA"/>
+                        <element xmi:type="esb:SwitchMediatorOutputConnector" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BXo1CUViEe2tQ8JR9pAqQA"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_BXo1CkViEe2tQ8JR9pAqQA" type="3043">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_BXo1C0ViEe2tQ8JR9pAqQA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_BXo1DEViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_BXo1DUViEe2tQ8JR9pAqQA"/>
+                        <element xmi:type="esb:SwitchCaseBranchOutputConnector" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@caseBranches.0"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BXo1DkViEe2tQ8JR9pAqQA" x="80" y="-34"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_BXo1D0ViEe2tQ8JR9pAqQA" type="3044">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_BXo1EEViEe2tQ8JR9pAqQA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_BXo1EUViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_BXo1EkViEe2tQ8JR9pAqQA"/>
+                        <element xmi:type="esb:SwitchDefaultBranchOutputConnector" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@defaultBranch"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BXo1E0ViEe2tQ8JR9pAqQA" x="80" y="16"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_BXo1FEViEe2tQ8JR9pAqQA" type="3500">
+                        <children xmi:type="notation:Node" xmi:id="_BYOq4EViEe2tQ8JR9pAqQA" type="3732">
+                          <children xmi:type="notation:Node" xmi:id="_BYOq6kViEe2tQ8JR9pAqQA" type="3733">
+                            <children xmi:type="notation:Node" xmi:id="_BYOq70ViEe2tQ8JR9pAqQA" type="3502">
+                              <children xmi:type="notation:DecorationNode" xmi:id="_BYOq9EViEe2tQ8JR9pAqQA" type="7015">
+                                <children xmi:type="notation:Node" xmi:id="_BZRMsEViEe2tQ8JR9pAqQA" type="3597">
+                                  <children xmi:type="notation:DecorationNode" xmi:id="_BZRMtUViEe2tQ8JR9pAqQA" type="5191"/>
+                                  <children xmi:type="notation:Node" xmi:id="_BZa9sEViEe2tQ8JR9pAqQA" type="3598">
+                                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_BZa9sUViEe2tQ8JR9pAqQA"/>
+                                    <styles xmi:type="notation:FontStyle" xmi:id="_BZa9skViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                                    <styles xmi:type="notation:LineStyle" xmi:id="_BZa9s0ViEe2tQ8JR9pAqQA"/>
+                                    <element xmi:type="esb:PayloadFactoryMediatorInputConnector" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer/@switchCaseContainer.0/@mediatorFlow/@children.0/@inputConnector"/>
+                                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BZa9tEViEe2tQ8JR9pAqQA" x="-6" y="-5"/>
+                                  </children>
+                                  <children xmi:type="notation:Node" xmi:id="_BZa9tUViEe2tQ8JR9pAqQA" type="3599">
+                                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_BZa9tkViEe2tQ8JR9pAqQA"/>
+                                    <styles xmi:type="notation:FontStyle" xmi:id="_BZa9t0ViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                                    <styles xmi:type="notation:LineStyle" xmi:id="_BZa9uEViEe2tQ8JR9pAqQA"/>
+                                    <element xmi:type="esb:PayloadFactoryMediatorOutputConnector" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer/@switchCaseContainer.0/@mediatorFlow/@children.0/@outputConnector"/>
+                                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BZa9uUViEe2tQ8JR9pAqQA" x="64" y="-9"/>
+                                  </children>
+                                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_BZRMsUViEe2tQ8JR9pAqQA"/>
+                                  <styles xmi:type="notation:FontStyle" xmi:id="_BZRMskViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                                  <styles xmi:type="notation:LineStyle" xmi:id="_BZRMs0ViEe2tQ8JR9pAqQA"/>
+                                  <element xmi:type="esb:PayloadFactoryMediator" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer/@switchCaseContainer.0/@mediatorFlow/@children.0"/>
+                                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BZRMtEViEe2tQ8JR9pAqQA" x="25" y="10" width="84" height="115"/>
+                                </children>
+                                <children xmi:type="notation:Node" xmi:id="_BZ3poEViEe2tQ8JR9pAqQA" type="3516">
+                                  <children xmi:type="notation:DecorationNode" xmi:id="_BZ3ppUViEe2tQ8JR9pAqQA" type="5183"/>
+                                  <children xmi:type="notation:Node" xmi:id="_BaKkkEViEe2tQ8JR9pAqQA" type="3100">
+                                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_BaKkkUViEe2tQ8JR9pAqQA"/>
+                                    <styles xmi:type="notation:FontStyle" xmi:id="_BaKkkkViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                                    <styles xmi:type="notation:LineStyle" xmi:id="_BaKkk0ViEe2tQ8JR9pAqQA"/>
+                                    <element xmi:type="esb:HeaderMediatorInputConnector" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer/@switchCaseContainer.0/@mediatorFlow/@children.1/@inputConnector"/>
+                                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BaKklEViEe2tQ8JR9pAqQA" x="-6" y="-5"/>
+                                  </children>
+                                  <children xmi:type="notation:Node" xmi:id="_BaKklUViEe2tQ8JR9pAqQA" type="3101">
+                                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_BaKklkViEe2tQ8JR9pAqQA"/>
+                                    <styles xmi:type="notation:FontStyle" xmi:id="_BaKkl0ViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                                    <styles xmi:type="notation:LineStyle" xmi:id="_BaKkmEViEe2tQ8JR9pAqQA"/>
+                                    <element xmi:type="esb:HeaderMediatorOutputConnector" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer/@switchCaseContainer.0/@mediatorFlow/@children.1/@outputConnector"/>
+                                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BaKkmUViEe2tQ8JR9pAqQA" x="64" y="-9"/>
+                                  </children>
+                                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_BZ3poUViEe2tQ8JR9pAqQA"/>
+                                  <styles xmi:type="notation:FontStyle" xmi:id="_BZ3pokViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                                  <styles xmi:type="notation:LineStyle" xmi:id="_BZ3po0ViEe2tQ8JR9pAqQA"/>
+                                  <element xmi:type="esb:HeaderMediator" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer/@switchCaseContainer.0/@mediatorFlow/@children.1"/>
+                                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BZ3ppEViEe2tQ8JR9pAqQA" x="149" y="10" width="84" height="115"/>
+                                </children>
+                                <children xmi:type="notation:Node" xmi:id="_BadfgEViEe2tQ8JR9pAqQA" type="3742">
+                                  <children xmi:type="notation:Node" xmi:id="_BanQgEViEe2tQ8JR9pAqQA" type="3743">
+                                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_BanQgUViEe2tQ8JR9pAqQA"/>
+                                    <styles xmi:type="notation:FontStyle" xmi:id="_BanQgkViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                                    <styles xmi:type="notation:LineStyle" xmi:id="_BanQg0ViEe2tQ8JR9pAqQA"/>
+                                    <element xmi:type="esb:CallMediatorInputConnector" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer/@switchCaseContainer.0/@mediatorFlow/@children.2/@inputConnector"/>
+                                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BanQhEViEe2tQ8JR9pAqQA" x="-6" y="-5"/>
+                                  </children>
+                                  <children xmi:type="notation:Node" xmi:id="_BanQhUViEe2tQ8JR9pAqQA" type="3744">
+                                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_BanQhkViEe2tQ8JR9pAqQA"/>
+                                    <styles xmi:type="notation:FontStyle" xmi:id="_BanQh0ViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                                    <styles xmi:type="notation:LineStyle" xmi:id="_BanQiEViEe2tQ8JR9pAqQA"/>
+                                    <element xmi:type="esb:CallMediatorOutputConnector" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer/@switchCaseContainer.0/@mediatorFlow/@children.2/@outputConnector"/>
+                                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BanQiUViEe2tQ8JR9pAqQA" x="-11" y="-9"/>
+                                  </children>
+                                  <children xmi:type="notation:Node" xmi:id="_BanQikViEe2tQ8JR9pAqQA" type="3745">
+                                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_BanQi0ViEe2tQ8JR9pAqQA"/>
+                                    <styles xmi:type="notation:FontStyle" xmi:id="_BanQjEViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                                    <styles xmi:type="notation:LineStyle" xmi:id="_BanQjUViEe2tQ8JR9pAqQA"/>
+                                    <element xmi:type="esb:CallMediatorEndpointOutputConnector" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer/@switchCaseContainer.0/@mediatorFlow/@children.2/@endpointOutputConnector"/>
+                                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BanQjkViEe2tQ8JR9pAqQA"/>
+                                  </children>
+                                  <children xmi:type="notation:Node" xmi:id="_BanQj0ViEe2tQ8JR9pAqQA" type="3746">
+                                    <children xmi:type="notation:DecorationNode" xmi:id="_BanQlEViEe2tQ8JR9pAqQA" type="7047">
+                                      <children xmi:type="notation:Node" xmi:id="_Ba6LcEViEe2tQ8JR9pAqQA" type="3660">
+                                        <children xmi:type="notation:DecorationNode" xmi:id="_BbD8cEViEe2tQ8JR9pAqQA" type="5165"/>
+                                        <children xmi:type="notation:Node" xmi:id="_BbD8cUViEe2tQ8JR9pAqQA" type="3661">
+                                          <styles xmi:type="notation:DescriptionStyle" xmi:id="_BbD8ckViEe2tQ8JR9pAqQA"/>
+                                          <styles xmi:type="notation:FontStyle" xmi:id="_BbD8c0ViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                                          <styles xmi:type="notation:LineStyle" xmi:id="_BbD8dEViEe2tQ8JR9pAqQA"/>
+                                          <element xmi:type="esb:NamedEndpointInputConnector" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer/@switchCaseContainer.0/@mediatorFlow/@children.2/@mediatorFlow/@children.0/@inputConnector"/>
+                                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BbD8dUViEe2tQ8JR9pAqQA"/>
+                                        </children>
+                                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_Ba6LcUViEe2tQ8JR9pAqQA"/>
+                                        <styles xmi:type="notation:FontStyle" xmi:id="_Ba6LckViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                                        <styles xmi:type="notation:LineStyle" xmi:id="_Ba6Lc0ViEe2tQ8JR9pAqQA"/>
+                                        <element xmi:type="esb:NamedEndpoint" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer/@switchCaseContainer.0/@mediatorFlow/@children.2/@mediatorFlow/@children.0"/>
+                                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ba6LdEViEe2tQ8JR9pAqQA" x="-97" y="144"/>
+                                      </children>
+                                      <styles xmi:type="notation:TitleStyle" xmi:id="_BanQlUViEe2tQ8JR9pAqQA" showTitle="true"/>
+                                    </children>
+                                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_BanQkEViEe2tQ8JR9pAqQA"/>
+                                    <styles xmi:type="notation:FontStyle" xmi:id="_BanQkUViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                                    <styles xmi:type="notation:LineStyle" xmi:id="_BanQkkViEe2tQ8JR9pAqQA"/>
+                                    <element xmi:type="esb:MediatorFlow" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer/@switchCaseContainer.0/@mediatorFlow/@children.2/@mediatorFlow"/>
+                                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BanQk0ViEe2tQ8JR9pAqQA"/>
+                                  </children>
+                                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_BadfgUViEe2tQ8JR9pAqQA"/>
+                                  <styles xmi:type="notation:FontStyle" xmi:id="_BadfgkViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                                  <styles xmi:type="notation:LineStyle" xmi:id="_Badfg0ViEe2tQ8JR9pAqQA"/>
+                                  <element xmi:type="esb:CallMediator" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer/@switchCaseContainer.0/@mediatorFlow/@children.2"/>
+                                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BadfhEViEe2tQ8JR9pAqQA" x="273" y="10" width="170" height="100"/>
+                                </children>
+                              </children>
+                              <styles xmi:type="notation:DescriptionStyle" xmi:id="_BYOq8EViEe2tQ8JR9pAqQA"/>
+                              <styles xmi:type="notation:FontStyle" xmi:id="_BYOq8UViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                              <styles xmi:type="notation:LineStyle" xmi:id="_BYOq8kViEe2tQ8JR9pAqQA"/>
+                              <element xmi:type="esb:MediatorFlow" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer/@switchCaseContainer.0/@mediatorFlow"/>
+                              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BYOq80ViEe2tQ8JR9pAqQA"/>
+                            </children>
+                            <styles xmi:type="notation:DescriptionStyle" xmi:id="_BYOq60ViEe2tQ8JR9pAqQA"/>
+                            <styles xmi:type="notation:FontStyle" xmi:id="_BYOq7EViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                            <styles xmi:type="notation:LineStyle" xmi:id="_BYOq7UViEe2tQ8JR9pAqQA"/>
+                            <element xmi:type="esb:SwitchCaseContainer" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer/@switchCaseContainer.0"/>
+                            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BYOq7kViEe2tQ8JR9pAqQA"/>
+                          </children>
+                          <children xmi:type="notation:Node" xmi:id="_BbW3YEViEe2tQ8JR9pAqQA" type="3733">
+                            <children xmi:type="notation:Node" xmi:id="_BbW3ZUViEe2tQ8JR9pAqQA" type="3502">
+                              <children xmi:type="notation:DecorationNode" xmi:id="_BbW3akViEe2tQ8JR9pAqQA" type="7015">
+                                <children xmi:type="notation:Node" xmi:id="_BbpyUEViEe2tQ8JR9pAqQA" type="3597">
+                                  <children xmi:type="notation:DecorationNode" xmi:id="_BbpyVUViEe2tQ8JR9pAqQA" type="5191"/>
+                                  <children xmi:type="notation:Node" xmi:id="_BbpyVkViEe2tQ8JR9pAqQA" type="3598">
+                                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_BbpyV0ViEe2tQ8JR9pAqQA"/>
+                                    <styles xmi:type="notation:FontStyle" xmi:id="_BbpyWEViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                                    <styles xmi:type="notation:LineStyle" xmi:id="_BbpyWUViEe2tQ8JR9pAqQA"/>
+                                    <element xmi:type="esb:PayloadFactoryMediatorInputConnector" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer/@switchCaseContainer.1/@mediatorFlow/@children.0/@inputConnector"/>
+                                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BbpyWkViEe2tQ8JR9pAqQA" x="-6" y="-5"/>
+                                  </children>
+                                  <children xmi:type="notation:Node" xmi:id="_BbpyW0ViEe2tQ8JR9pAqQA" type="3599">
+                                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_BbpyXEViEe2tQ8JR9pAqQA"/>
+                                    <styles xmi:type="notation:FontStyle" xmi:id="_BbpyXUViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                                    <styles xmi:type="notation:LineStyle" xmi:id="_BbpyXkViEe2tQ8JR9pAqQA"/>
+                                    <element xmi:type="esb:PayloadFactoryMediatorOutputConnector" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer/@switchCaseContainer.1/@mediatorFlow/@children.0/@outputConnector"/>
+                                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BbpyX0ViEe2tQ8JR9pAqQA" x="64" y="-9"/>
+                                  </children>
+                                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_BbpyUUViEe2tQ8JR9pAqQA"/>
+                                  <styles xmi:type="notation:FontStyle" xmi:id="_BbpyUkViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                                  <styles xmi:type="notation:LineStyle" xmi:id="_BbpyU0ViEe2tQ8JR9pAqQA"/>
+                                  <element xmi:type="esb:PayloadFactoryMediator" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer/@switchCaseContainer.1/@mediatorFlow/@children.0"/>
+                                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BbpyVEViEe2tQ8JR9pAqQA" x="25" y="10" width="84" height="115"/>
+                                </children>
+                                <children xmi:type="notation:Node" xmi:id="_BcGeQEViEe2tQ8JR9pAqQA" type="3516">
+                                  <children xmi:type="notation:DecorationNode" xmi:id="_BcGeRUViEe2tQ8JR9pAqQA" type="5183"/>
+                                  <children xmi:type="notation:Node" xmi:id="_BcGeRkViEe2tQ8JR9pAqQA" type="3100">
+                                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_BcGeR0ViEe2tQ8JR9pAqQA"/>
+                                    <styles xmi:type="notation:FontStyle" xmi:id="_BcGeSEViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                                    <styles xmi:type="notation:LineStyle" xmi:id="_BcGeSUViEe2tQ8JR9pAqQA"/>
+                                    <element xmi:type="esb:HeaderMediatorInputConnector" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer/@switchCaseContainer.1/@mediatorFlow/@children.1/@inputConnector"/>
+                                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BcGeSkViEe2tQ8JR9pAqQA" x="-6" y="-5"/>
+                                  </children>
+                                  <children xmi:type="notation:Node" xmi:id="_BcGeS0ViEe2tQ8JR9pAqQA" type="3101">
+                                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_BcGeTEViEe2tQ8JR9pAqQA"/>
+                                    <styles xmi:type="notation:FontStyle" xmi:id="_BcGeTUViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                                    <styles xmi:type="notation:LineStyle" xmi:id="_BcGeTkViEe2tQ8JR9pAqQA"/>
+                                    <element xmi:type="esb:HeaderMediatorOutputConnector" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer/@switchCaseContainer.1/@mediatorFlow/@children.1/@outputConnector"/>
+                                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BcGeT0ViEe2tQ8JR9pAqQA" x="64" y="-9"/>
+                                  </children>
+                                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_BcGeQUViEe2tQ8JR9pAqQA"/>
+                                  <styles xmi:type="notation:FontStyle" xmi:id="_BcGeQkViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                                  <styles xmi:type="notation:LineStyle" xmi:id="_BcGeQ0ViEe2tQ8JR9pAqQA"/>
+                                  <element xmi:type="esb:HeaderMediator" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer/@switchCaseContainer.1/@mediatorFlow/@children.1"/>
+                                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BcGeREViEe2tQ8JR9pAqQA" x="149" y="10" width="84" height="115"/>
+                                </children>
+                                <children xmi:type="notation:Node" xmi:id="_BcaAQEViEe2tQ8JR9pAqQA" type="3742">
+                                  <children xmi:type="notation:Node" xmi:id="_BcaARUViEe2tQ8JR9pAqQA" type="3743">
+                                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_BcaARkViEe2tQ8JR9pAqQA"/>
+                                    <styles xmi:type="notation:FontStyle" xmi:id="_BcaAR0ViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                                    <styles xmi:type="notation:LineStyle" xmi:id="_BcaASEViEe2tQ8JR9pAqQA"/>
+                                    <element xmi:type="esb:CallMediatorInputConnector" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer/@switchCaseContainer.1/@mediatorFlow/@children.2/@inputConnector"/>
+                                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BcaASUViEe2tQ8JR9pAqQA" x="-6" y="-5"/>
+                                  </children>
+                                  <children xmi:type="notation:Node" xmi:id="_BcaASkViEe2tQ8JR9pAqQA" type="3744">
+                                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_BcaAS0ViEe2tQ8JR9pAqQA"/>
+                                    <styles xmi:type="notation:FontStyle" xmi:id="_BcaATEViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                                    <styles xmi:type="notation:LineStyle" xmi:id="_BcaATUViEe2tQ8JR9pAqQA"/>
+                                    <element xmi:type="esb:CallMediatorOutputConnector" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer/@switchCaseContainer.1/@mediatorFlow/@children.2/@outputConnector"/>
+                                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BcaATkViEe2tQ8JR9pAqQA" x="-11" y="-9"/>
+                                  </children>
+                                  <children xmi:type="notation:Node" xmi:id="_BcaAT0ViEe2tQ8JR9pAqQA" type="3745">
+                                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_BcaAUEViEe2tQ8JR9pAqQA"/>
+                                    <styles xmi:type="notation:FontStyle" xmi:id="_BcaAUUViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                                    <styles xmi:type="notation:LineStyle" xmi:id="_BcaAUkViEe2tQ8JR9pAqQA"/>
+                                    <element xmi:type="esb:CallMediatorEndpointOutputConnector" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer/@switchCaseContainer.1/@mediatorFlow/@children.2/@endpointOutputConnector"/>
+                                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BcaAU0ViEe2tQ8JR9pAqQA"/>
+                                  </children>
+                                  <children xmi:type="notation:Node" xmi:id="_BcaAVEViEe2tQ8JR9pAqQA" type="3746">
+                                    <children xmi:type="notation:DecorationNode" xmi:id="_BcaAWUViEe2tQ8JR9pAqQA" type="7047">
+                                      <children xmi:type="notation:Node" xmi:id="_Bcs7MEViEe2tQ8JR9pAqQA" type="3660">
+                                        <children xmi:type="notation:DecorationNode" xmi:id="_Bcs7NUViEe2tQ8JR9pAqQA" type="5165"/>
+                                        <children xmi:type="notation:Node" xmi:id="_Bc2FIEViEe2tQ8JR9pAqQA" type="3661">
+                                          <styles xmi:type="notation:DescriptionStyle" xmi:id="_Bc2FIUViEe2tQ8JR9pAqQA"/>
+                                          <styles xmi:type="notation:FontStyle" xmi:id="_Bc2FIkViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                                          <styles xmi:type="notation:LineStyle" xmi:id="_Bc2FI0ViEe2tQ8JR9pAqQA"/>
+                                          <element xmi:type="esb:NamedEndpointInputConnector" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer/@switchCaseContainer.1/@mediatorFlow/@children.2/@mediatorFlow/@children.0/@inputConnector"/>
+                                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bc2FJEViEe2tQ8JR9pAqQA"/>
+                                        </children>
+                                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_Bcs7MUViEe2tQ8JR9pAqQA"/>
+                                        <styles xmi:type="notation:FontStyle" xmi:id="_Bcs7MkViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                                        <styles xmi:type="notation:LineStyle" xmi:id="_Bcs7M0ViEe2tQ8JR9pAqQA"/>
+                                        <element xmi:type="esb:NamedEndpoint" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer/@switchCaseContainer.1/@mediatorFlow/@children.2/@mediatorFlow/@children.0"/>
+                                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bcs7NEViEe2tQ8JR9pAqQA" x="5" y="103"/>
+                                      </children>
+                                      <styles xmi:type="notation:TitleStyle" xmi:id="_BcaAWkViEe2tQ8JR9pAqQA" showTitle="true"/>
+                                    </children>
+                                    <styles xmi:type="notation:DescriptionStyle" xmi:id="_BcaAVUViEe2tQ8JR9pAqQA"/>
+                                    <styles xmi:type="notation:FontStyle" xmi:id="_BcaAVkViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                                    <styles xmi:type="notation:LineStyle" xmi:id="_BcaAV0ViEe2tQ8JR9pAqQA"/>
+                                    <element xmi:type="esb:MediatorFlow" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer/@switchCaseContainer.1/@mediatorFlow/@children.2/@mediatorFlow"/>
+                                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BcaAWEViEe2tQ8JR9pAqQA"/>
+                                  </children>
+                                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_BcaAQUViEe2tQ8JR9pAqQA"/>
+                                  <styles xmi:type="notation:FontStyle" xmi:id="_BcaAQkViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                                  <styles xmi:type="notation:LineStyle" xmi:id="_BcaAQ0ViEe2tQ8JR9pAqQA"/>
+                                  <element xmi:type="esb:CallMediator" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer/@switchCaseContainer.1/@mediatorFlow/@children.2"/>
+                                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BcaAREViEe2tQ8JR9pAqQA" x="273" y="10" width="170" height="100"/>
+                                </children>
+                              </children>
+                              <styles xmi:type="notation:DescriptionStyle" xmi:id="_BbW3ZkViEe2tQ8JR9pAqQA"/>
+                              <styles xmi:type="notation:FontStyle" xmi:id="_BbW3Z0ViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                              <styles xmi:type="notation:LineStyle" xmi:id="_BbW3aEViEe2tQ8JR9pAqQA"/>
+                              <element xmi:type="esb:MediatorFlow" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer/@switchCaseContainer.1/@mediatorFlow"/>
+                              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BbW3aUViEe2tQ8JR9pAqQA"/>
+                            </children>
+                            <styles xmi:type="notation:DescriptionStyle" xmi:id="_BbW3YUViEe2tQ8JR9pAqQA"/>
+                            <styles xmi:type="notation:FontStyle" xmi:id="_BbW3YkViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                            <styles xmi:type="notation:LineStyle" xmi:id="_BbW3Y0ViEe2tQ8JR9pAqQA"/>
+                            <element xmi:type="esb:SwitchCaseContainer" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer/@switchCaseContainer.1"/>
+                            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BbW3ZEViEe2tQ8JR9pAqQA"/>
+                          </children>
+                          <styles xmi:type="notation:DescriptionStyle" xmi:id="_BYOq4UViEe2tQ8JR9pAqQA"/>
+                          <styles xmi:type="notation:FontStyle" xmi:id="_BYOq4kViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                          <styles xmi:type="notation:LineStyle" xmi:id="_BYOq40ViEe2tQ8JR9pAqQA"/>
+                          <element xmi:type="esb:SwitchCaseParentContainer" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BYOq5EViEe2tQ8JR9pAqQA"/>
+                        </children>
+                        <children xmi:type="notation:Node" xmi:id="_BYOq5UViEe2tQ8JR9pAqQA" type="3734">
+                          <styles xmi:type="notation:DescriptionStyle" xmi:id="_BYOq5kViEe2tQ8JR9pAqQA"/>
+                          <styles xmi:type="notation:FontStyle" xmi:id="_BYOq50ViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                          <styles xmi:type="notation:LineStyle" xmi:id="_BYOq6EViEe2tQ8JR9pAqQA"/>
+                          <element xmi:type="esb:SwitchDefaultParentContainer" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchDefaultParentContainer"/>
+                          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BYOq6UViEe2tQ8JR9pAqQA"/>
+                        </children>
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_BXo1FUViEe2tQ8JR9pAqQA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_BXo1FkViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_BXo1F0ViEe2tQ8JR9pAqQA"/>
+                        <element xmi:type="esb:SwitchMediatorContainer" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BXo1GEViEe2tQ8JR9pAqQA"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_BbgoYEViEe2tQ8JR9pAqQA" type="3043">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_BbgoYUViEe2tQ8JR9pAqQA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_BbgoYkViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_BbgoY0ViEe2tQ8JR9pAqQA"/>
+                        <element xmi:type="esb:SwitchCaseBranchOutputConnector" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@caseBranches.1"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BbgoZEViEe2tQ8JR9pAqQA"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_BXMJEUViEe2tQ8JR9pAqQA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_BXMJEkViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_BXMJE0ViEe2tQ8JR9pAqQA"/>
+                      <element xmi:type="esb:SwitchMediator" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BXMJFEViEe2tQ8JR9pAqQA" x="149" y="38" width="170" height="130"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_Bc_2IEViEe2tQ8JR9pAqQA" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_Bc_2JUViEe2tQ8JR9pAqQA" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_Bc_2JkViEe2tQ8JR9pAqQA" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_Bc_2J0ViEe2tQ8JR9pAqQA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_Bc_2KEViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_Bc_2KUViEe2tQ8JR9pAqQA"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bc_2KkViEe2tQ8JR9pAqQA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_Bc_2K0ViEe2tQ8JR9pAqQA" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_Bc_2LEViEe2tQ8JR9pAqQA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_Bc_2LUViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_Bc_2LkViEe2tQ8JR9pAqQA"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bc_2L0ViEe2tQ8JR9pAqQA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_Bc_2IUViEe2tQ8JR9pAqQA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_Bc_2IkViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_Bc_2I0ViEe2tQ8JR9pAqQA"/>
+                      <element xmi:type="esb:PropertyMediator" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bc_2JEViEe2tQ8JR9pAqQA" x="722" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_BdmTEEViEe2tQ8JR9pAqQA" type="3739">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_BdmTFUViEe2tQ8JR9pAqQA" type="5209"/>
+                      <children xmi:type="notation:Node" xmi:id="_BdmTFkViEe2tQ8JR9pAqQA" type="3740">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_BdmTF0ViEe2tQ8JR9pAqQA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_BdmTGEViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_BdmTGUViEe2tQ8JR9pAqQA"/>
+                        <element xmi:type="esb:RespondMediatorInputConnector" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BdmTGkViEe2tQ8JR9pAqQA" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_BdmTG0ViEe2tQ8JR9pAqQA" type="3741">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_BdmTHEViEe2tQ8JR9pAqQA"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_BdmTHUViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_BdmTHkViEe2tQ8JR9pAqQA"/>
+                        <element xmi:type="esb:RespondMediatorOutputConnector" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BdmTH0ViEe2tQ8JR9pAqQA" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_BdmTEUViEe2tQ8JR9pAqQA"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_BdmTEkViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_BdmTE0ViEe2tQ8JR9pAqQA"/>
+                      <element xmi:type="esb:RespondMediator" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BdmTFEViEe2tQ8JR9pAqQA" x="846" y="38" width="84" height="115"/>
+                    </children>
+                    <styles xmi:type="notation:TitleStyle" xmi:id="_BWciNkViEe2tQ8JR9pAqQA" showTitle="true"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_BWciMUViEe2tQ8JR9pAqQA"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_BWciMkViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_BWciM0ViEe2tQ8JR9pAqQA"/>
+                  <element xmi:type="esb:MediatorFlow" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BWciNEViEe2tQ8JR9pAqQA"/>
+                </children>
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_BWSxMUViEe2tQ8JR9pAqQA"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_BWSxMkViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_BWSxM0ViEe2tQ8JR9pAqQA"/>
+                <element xmi:type="esb:ProxyServiceSequenceAndEndpointContainer" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BWSxNEViEe2tQ8JR9pAqQA"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_BWSxNUViEe2tQ8JR9pAqQA" type="3488">
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_BWSxNkViEe2tQ8JR9pAqQA"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_BWSxN0ViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_BWSxOEViEe2tQ8JR9pAqQA"/>
+                <element xmi:type="esb:ProxyServiceFaultContainer" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@faultContainer"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BWSxOUViEe2tQ8JR9pAqQA"/>
+              </children>
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_BWJASkViEe2tQ8JR9pAqQA"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_BWJAS0ViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_BWJATEViEe2tQ8JR9pAqQA"/>
+              <element xmi:type="esb:ProxyServiceContainer" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BWJATUViEe2tQ8JR9pAqQA"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_BWJAMUViEe2tQ8JR9pAqQA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_BWJAMkViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_BWJAM0ViEe2tQ8JR9pAqQA"/>
+            <element xmi:type="esb:APIResource" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BWJANEViEe2tQ8JR9pAqQA" width="300" height="400"/>
+          </children>
+        </children>
+        <element xmi:type="esb:SynapseAPI" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BV_2QUViEe2tQ8JR9pAqQA" width="640" height="500"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_BMwas0ViEe2tQ8JR9pAqQA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_BMwatEViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_BMwatUViEe2tQ8JR9pAqQA"/>
+    <element xmi:type="esb:EsbServer" href="ArithmaticOperationServiceAPI.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BMwatkViEe2tQ8JR9pAqQA"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_BL3p4UViEe2tQ8JR9pAqQA"/>
+  <element xmi:type="esb:EsbDiagram" href="ArithmaticOperationServiceAPI.esb#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_BeMI8EViEe2tQ8JR9pAqQA" type="4001" source="_BXo1D0ViEe2tQ8JR9pAqQA" target="_BZICwEViEe2tQ8JR9pAqQA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_BeMI8UViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@defaultBranch/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BeMI8kViEe2tQ8JR9pAqQA" points="[9, -9, -7, 7]$[11, -11, -5, 5]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_BeV58EViEe2tQ8JR9pAqQA" type="4001" source="_BXo1CkViEe2tQ8JR9pAqQA" target="_BZa9sEViEe2tQ8JR9pAqQA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_BeV58UViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@caseBranches.0/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BeV58kViEe2tQ8JR9pAqQA" points="[9, -9, -7, 7]$[11, -11, -5, 5]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_BeV580ViEe2tQ8JR9pAqQA" type="4001" source="_BZa9tUViEe2tQ8JR9pAqQA" target="_BaKkkEViEe2tQ8JR9pAqQA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_BeV59EViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer/@switchCaseContainer.0/@mediatorFlow/@children.0/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BeV59UViEe2tQ8JR9pAqQA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_BefD4EViEe2tQ8JR9pAqQA" type="4001" source="_BaKklUViEe2tQ8JR9pAqQA" target="_BanQgEViEe2tQ8JR9pAqQA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_BefD4UViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer/@switchCaseContainer.0/@mediatorFlow/@children.1/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BefD4kViEe2tQ8JR9pAqQA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_BefD40ViEe2tQ8JR9pAqQA" type="4001" source="_BbgoYEViEe2tQ8JR9pAqQA" target="_BbpyVkViEe2tQ8JR9pAqQA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_BefD5EViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@caseBranches.1/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BefD5UViEe2tQ8JR9pAqQA" points="[-6, -5, 0, 0]$[0, 0, 6, 5]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Beo04EViEe2tQ8JR9pAqQA" type="4001" source="_BbpyW0ViEe2tQ8JR9pAqQA" target="_BcGeRkViEe2tQ8JR9pAqQA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_Beo04UViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer/@switchCaseContainer.1/@mediatorFlow/@children.0/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Beo04kViEe2tQ8JR9pAqQA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Bex-0EViEe2tQ8JR9pAqQA" type="4001" source="_BcGeS0ViEe2tQ8JR9pAqQA" target="_BcaARUViEe2tQ8JR9pAqQA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_Bex-0UViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer/@switchCaseContainer.1/@mediatorFlow/@children.1/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Bex-0kViEe2tQ8JR9pAqQA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Be7v0EViEe2tQ8JR9pAqQA" type="4001" source="_BWJAOkViEe2tQ8JR9pAqQA" target="_BW5OIEViEe2tQ8JR9pAqQA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_Be7v0UViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Be7v0kViEe2tQ8JR9pAqQA" points="[6, 5, -5, 0]$[5, 0, -6, -5]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Be7v00ViEe2tQ8JR9pAqQA" type="4001" source="_BW5OJUViEe2tQ8JR9pAqQA" target="_BXo1AEViEe2tQ8JR9pAqQA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_Be7v1EViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Be7v1UViEe2tQ8JR9pAqQA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_BfFg0EViEe2tQ8JR9pAqQA" type="4001" source="_BXo1BUViEe2tQ8JR9pAqQA" target="_Bc_2JkViEe2tQ8JR9pAqQA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_BfFg0UViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BfFg0kViEe2tQ8JR9pAqQA" points="[-11, 0, 0, 0]$[-5, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_BfFg00ViEe2tQ8JR9pAqQA" type="4001" source="_Bc_2K0ViEe2tQ8JR9pAqQA" target="_BdmTFkViEe2tQ8JR9pAqQA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_BfFg1EViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BfFg1UViEe2tQ8JR9pAqQA" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_BsMIsEViEe2tQ8JR9pAqQA" type="4001" source="_BanQikViEe2tQ8JR9pAqQA" target="_BbD8cUViEe2tQ8JR9pAqQA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_BsMIsUViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer/@switchCaseContainer.0/@mediatorFlow/@children.2/@endpointOutputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BsMIskViEe2tQ8JR9pAqQA" points="[-4, 9, 65, -151]$[-67, 155, 2, -5]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_BsfqsEViEe2tQ8JR9pAqQA" type="4001" source="_BcaAT0ViEe2tQ8JR9pAqQA" target="_Bc2FIEViEe2tQ8JR9pAqQA" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_BsfqsUViEe2tQ8JR9pAqQA" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="ArithmaticOperationServiceAPI.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@switchContainer/@switchCaseParentContainer/@switchCaseContainer.1/@mediatorFlow/@children.2/@endpointOutputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BsfqskViEe2tQ8JR9pAqQA" points="[2, 9, -31, -110]$[31, 114, -2, -5]"/>
+  </edges>
+</notation:Diagram>

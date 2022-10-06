@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Kafka_Configs_ESB/src/main/synapse-config/sequences/Eror_SQ.xml&apos; to &apos;Error_SQ.xml&apos;" description="Rename resource &apos;Eror_SQ.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/synapse-config/sequences/Eror_SQ.xml" name="Error_SQ.xml" stamp="1665058710548" updateReferences="true"/>
+</session>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/test" name="Hello_API" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET">
+        <inSequence>
+            <property name="HTTP_SC" scope="transport" type="STRING" value="200"/>
+            <property expression="get-property('registry','conf:/_system/config/endpoints/New.xml')" name="Registry" scope="default" type="OM"/>
+            <property expression="$ctx:Registry//*[local-name()='Token']/text()" name="token" scope="default" type="STRING"/>
+            <log level="custom">
+                <property expression="get-property('token')" name="token"/>
+            </log>
+            <header expression="get-property('token')" name="Authorization" scope="transport"/>
+            <payloadFactory media-type="json">
+                <format>
+                {
+                "status" : "success"
+                }
+                </format>
+                <args/>
+            </payloadFactory>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>

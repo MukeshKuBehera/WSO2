@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/foreach" name="ForEach_API" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="POST">
+        <inSequence>
+            <foreach expression="//StudentRoot/Students/Student" id="itr1">
+                <sequence>
+                    <payloadFactory media-type="xml">
+                        <format>
+                            <Student xmlns="">
+                                <Fullname>$1</Fullname>
+                            </Student>
+                        </format>
+                        <args>
+                            <arg evaluator="xml" expression="fn:concat(//firstname,'',//lastname)"/>
+                        </args>
+                    </payloadFactory>
+                </sequence>
+            </foreach>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>

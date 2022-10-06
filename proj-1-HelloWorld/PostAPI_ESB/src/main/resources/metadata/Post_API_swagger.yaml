@@ -1,0 +1,13 @@
+openapi: 3.0.1
+info:
+  title: Post_API
+  description: API Definition of Post_API
+  version: 1.0.0
+servers:
+- url: http://localhost:8290/emp
+paths:
+  /:
+    post:
+      responses:
+        default:
+          description: Default response

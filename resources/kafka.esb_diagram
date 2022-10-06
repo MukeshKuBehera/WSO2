@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/integrationstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_IYab0EUwEe2pA-Clh5eZSg" type="Esb" name="kafka" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_IZTzskUwEe2pA-Clh5eZSg" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_IZTzt0UwEe2pA-Clh5eZSg" type="7001">
+      <children xmi:type="notation:Node" xmi:id="_NqlgEEUwEe2pA-Clh5eZSg" type="3767">
+        <styles xmi:type="notation:DescriptionStyle" xmi:id="_NqlgEUUwEe2pA-Clh5eZSg"/>
+        <styles xmi:type="notation:FontStyle" xmi:id="_NqlgEkUwEe2pA-Clh5eZSg" fontName="Segoe UI"/>
+        <styles xmi:type="notation:LineStyle" xmi:id="_NqlgE0UwEe2pA-Clh5eZSg"/>
+        <element xmi:type="esb:InboundEndpoint" href="kafka.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NqlgFEUwEe2pA-Clh5eZSg" width="300" height="400"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_IZTzs0UwEe2pA-Clh5eZSg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_IZTztEUwEe2pA-Clh5eZSg" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_IZTztUUwEe2pA-Clh5eZSg"/>
+    <element xmi:type="esb:EsbServer" href="kafka.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IZTztkUwEe2pA-Clh5eZSg"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_IYab0UUwEe2pA-Clh5eZSg"/>
+  <element xmi:type="esb:EsbDiagram" href="kafka.esb#/"/>
+</notation:Diagram>

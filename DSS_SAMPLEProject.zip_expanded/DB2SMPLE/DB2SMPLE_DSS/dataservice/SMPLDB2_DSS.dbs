@@ -1,0 +1,82 @@
+<data name="PayPremDB2DataService_DSS" serviceNamespace="" serviceGroup="" transports="http https">
+
+<config id="Payprem">
+    <property name="driverClassName">com.ibm.db2.jcc.DB2Driver</property>
+    <property name="url">jdbc:db2://192.168.1.213:50000/SAMPLE</property>
+    <property name="username">db2inst1</property>
+    <property name="password">sarasu10</property>
+  </config>
+  
+  <query id="CreateUsersNvest" keyColumns="ROLL_NO" returnGeneratedKeys="true" useConfig="Payprem">
+    <sql>INSERT INTO USERSZZ (ROLL_NO,NAME,DEPT) VALUES(:ROLL_NO,:NAME, :DEPT)</sql>
+     <result useColumnNumbers="true" element="GeneratedKey" rowName="ROLL_NO">
+      <element name="ROLL_NO" column="1" xsdType="integer" />
+    </result>
+    <param name="ROLL_NO" sqlType="INTEGER" />
+    <param name="NAME" sqlType="STRING" />
+    <param name="DEPT" sqlType="STRING" />
+  </query>
+  
+   <resource path="/insert" method="POST">
+    <description />
+    <call-query href="CreateUsersNvest">
+      <with-param name="ROLL_NO" query-param="ROLL_NO" />
+      <with-param name="NAME" query-param="NAME" />
+      <with-param name="DEPT" query-param="DEPT" />
+    </call-query>
+  </resource>
+  
+  
+   <query id="UpdateUsersNvest"    useConfig="Payprem">
+    <sql>UPDATE USERSZZ SET NAME = :NAME, DEPT = :DEPT WHERE ROLL_NO = :ROLL_NO</sql>
+     
+    <param name="NAME" paramType="SCALAR" sqlType="STRING" />
+    <param name="DEPT" paramType="SCALAR" sqlType="STRING" />
+    <param name="ROLL_NO" paramType="SCALAR" sqlType="INTEGER" />
+  </query>
+  
+  <resource path="/update" method="PUT">
+    <description />
+    <call-query href="UpdateUsersNvest">
+      <with-param name="NAME" query-param="NAME" />
+      <with-param name="DEPT" query-param="DEPT" />
+      <with-param name="ROLL_NO" query-param="ROLL_NO" />
+    </call-query>
+  </resource>
+  
+  
+    <query id="ReadUsersNvest" useConfig="Payprem">
+    <sql>SELECT ROLL_NO, NAME, DEPT FROM USERSZZ where ROLL_NO=:ROLL_NO</sql>
+    <param name="ROLL_NO" sqlType="INTEGER" />
+    <result element="Users" rowName="user">
+      <element name="Roll_NO" column="ROLL_NO" xsdType="integer" />
+      <element name="Name" column="NAME" xsdType="string" />
+      <element name="DEPT" column="DEPT" xsdType="string" />
+    </result>
+  </query>
+  
+ 
+  <resource path="/select" method="POST">
+    <description />
+    <call-query href="ReadUsersNvest">
+      <with-param name="ROLL_NO" query-param="ROLL_NO" />
+    </call-query>
+  </resource> 
+  
+  
+  <query id="DeleteUsersNvest" useConfig="Payprem">
+    <sql>DELETE FROM  USERSZZ  where ROLL_NO=:ROLL_NO</sql>
+    <param name="ROLL_NO" sqlType="INTEGER" />
+    
+  </query>
+  
+   <resource path="/delete" method="DELETE">
+    <description />
+    <call-query href="DeleteUsersNvest">
+      <with-param name="ROLL_NO" query-param="ROLL_NO" />
+    </call-query>
+  </resource>
+  
+  
+  </data>
+  

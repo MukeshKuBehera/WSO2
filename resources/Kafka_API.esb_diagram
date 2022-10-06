@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:esb="http:///org/wso2/integrationstudio/eclipse/gmf/esb" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmi:id="_R-_4wEV2Ee2IwffwTKve5g" type="Esb" name="Kafka_API" measurementUnit="Pixel">
+  <children xmi:type="notation:Node" xmi:id="_SnJd4EV2Ee2IwffwTKve5g" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_SnPkgEV2Ee2IwffwTKve5g" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_VIR94EV2Ee2IwffwTKve5g" type="3668" fontName="Segoe UI">
+        <children xmi:type="notation:BasicCompartment" xmi:id="_VIR94kV2Ee2IwffwTKve5g" type="7044">
+          <children xmi:type="notation:Node" xmi:id="_VIqYYEV2Ee2IwffwTKve5g" type="3669">
+            <children xmi:type="notation:Node" xmi:id="_VI8sQEV2Ee2IwffwTKve5g" type="3670">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_VI8sQUV2Ee2IwffwTKve5g"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_VI8sQkV2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_VI8sQ0V2Ee2IwffwTKve5g"/>
+              <element xmi:type="esb:APIResourceInputConnector" href="Kafka_API.esb#//@server/@children.0/@resources.0/@inputConnector"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VI8sREV2Ee2IwffwTKve5g" x="86" y="-11"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_VI8sRUV2Ee2IwffwTKve5g" type="3671">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_VI8sRkV2Ee2IwffwTKve5g"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_VI8sR0V2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_VI8sSEV2Ee2IwffwTKve5g"/>
+              <element xmi:type="esb:APIResourceOutputConnector" href="Kafka_API.esb#//@server/@children.0/@resources.0/@outputConnector"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VI8sSUV2Ee2IwffwTKve5g" x="86" y="-23"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_VI8sSkV2Ee2IwffwTKve5g" type="3730">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_VI8sS0V2Ee2IwffwTKve5g"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_VI8sTEV2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_VI8sTUV2Ee2IwffwTKve5g"/>
+              <element xmi:type="esb:APIResourceOutSequenceOutputConnector" href="Kafka_API.esb#//@server/@children.0/@resources.0/@outSequenceOutputConnector"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VI8sTkV2Ee2IwffwTKve5g" x="110" y="-11"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_VI8sT0V2Ee2IwffwTKve5g" type="3672">
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_VI8sUEV2Ee2IwffwTKve5g"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_VI8sUUV2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_VI8sUkV2Ee2IwffwTKve5g"/>
+              <element xmi:type="esb:APIResourceFaultInputConnector" href="Kafka_API.esb#//@server/@children.0/@resources.0/@faultInputConnector"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VI8sU0V2Ee2IwffwTKve5g" x="86" y="7"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_VI8sVEV2Ee2IwffwTKve5g" type="3673">
+              <children xmi:type="notation:Node" xmi:id="_VJI5gEV2Ee2IwffwTKve5g" type="3487">
+                <children xmi:type="notation:Node" xmi:id="_VJI5ikV2Ee2IwffwTKve5g" type="3608">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_VJI5j0V2Ee2IwffwTKve5g" type="7034">
+                    <children xmi:type="notation:Node" xmi:id="_VJthQEV2Ee2IwffwTKve5g" type="3722">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_VJthRUV2Ee2IwffwTKve5g" type="5198"/>
+                      <children xmi:type="notation:Node" xmi:id="_VKYPoEV2Ee2IwffwTKve5g" type="3723">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_VKYPoUV2Ee2IwffwTKve5g"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_VKYPokV2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_VKYPo0V2Ee2IwffwTKve5g"/>
+                        <element xmi:type="esb:CloudConnectorOperationInputConnector" href="Kafka_API.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VKYPpEV2Ee2IwffwTKve5g" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_VKYPpUV2Ee2IwffwTKve5g" type="3724">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_VKYPpkV2Ee2IwffwTKve5g"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_VKYPp0V2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_VKYPqEV2Ee2IwffwTKve5g"/>
+                        <element xmi:type="esb:CloudConnectorOperationOutputConnector" href="Kafka_API.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VKYPqUV2Ee2IwffwTKve5g" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_VJthQUV2Ee2IwffwTKve5g"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_VJthQkV2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_VJthQ0V2Ee2IwffwTKve5g"/>
+                      <element xmi:type="esb:CloudConnectorOperation" href="Kafka_API.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VJthREV2Ee2IwffwTKve5g" x="25" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_VM274EV2Ee2IwffwTKve5g" type="3722">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_VM275UV2Ee2IwffwTKve5g" type="5198"/>
+                      <children xmi:type="notation:Node" xmi:id="_VM275kV2Ee2IwffwTKve5g" type="3723">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_VM2750V2Ee2IwffwTKve5g"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_VM276EV2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_VM276UV2Ee2IwffwTKve5g"/>
+                        <element xmi:type="esb:CloudConnectorOperationInputConnector" href="Kafka_API.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VM276kV2Ee2IwffwTKve5g" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_VM2760V2Ee2IwffwTKve5g" type="3724">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_VM277EV2Ee2IwffwTKve5g"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_VM277UV2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_VM277kV2Ee2IwffwTKve5g"/>
+                        <element xmi:type="esb:CloudConnectorOperationOutputConnector" href="Kafka_API.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VM2770V2Ee2IwffwTKve5g" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_VM274UV2Ee2IwffwTKve5g"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_VM274kV2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_VM2740V2Ee2IwffwTKve5g"/>
+                      <element xmi:type="esb:CloudConnectorOperation" href="Kafka_API.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VM275EV2Ee2IwffwTKve5g" x="149" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_VNVdAEV2Ee2IwffwTKve5g" type="3597">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_VNVdBUV2Ee2IwffwTKve5g" type="5191"/>
+                      <children xmi:type="notation:Node" xmi:id="_VNnw4EV2Ee2IwffwTKve5g" type="3598">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_VNnw4UV2Ee2IwffwTKve5g"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_VNnw4kV2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_VNnw40V2Ee2IwffwTKve5g"/>
+                        <element xmi:type="esb:PayloadFactoryMediatorInputConnector" href="Kafka_API.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VNnw5EV2Ee2IwffwTKve5g" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_VNnw5UV2Ee2IwffwTKve5g" type="3599">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_VNnw5kV2Ee2IwffwTKve5g"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_VNnw50V2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_VNnw6EV2Ee2IwffwTKve5g"/>
+                        <element xmi:type="esb:PayloadFactoryMediatorOutputConnector" href="Kafka_API.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VNnw6UV2Ee2IwffwTKve5g" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_VNVdAUV2Ee2IwffwTKve5g"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_VNVdAkV2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_VNVdA0V2Ee2IwffwTKve5g"/>
+                      <element xmi:type="esb:PayloadFactoryMediator" href="Kafka_API.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VNVdBEV2Ee2IwffwTKve5g" x="273" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_VOYl4EV2Ee2IwffwTKve5g" type="3492">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_VOYl5UV2Ee2IwffwTKve5g" type="5167"/>
+                      <children xmi:type="notation:Node" xmi:id="_VOkzIEV2Ee2IwffwTKve5g" type="3033">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_VOkzIUV2Ee2IwffwTKve5g"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_VOkzIkV2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_VOkzI0V2Ee2IwffwTKve5g"/>
+                        <element xmi:type="esb:PropertyMediatorInputConnector" href="Kafka_API.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VOkzJEV2Ee2IwffwTKve5g" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_VOkzJUV2Ee2IwffwTKve5g" type="3034">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_VOkzJkV2Ee2IwffwTKve5g"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_VOkzJ0V2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_VOkzKEV2Ee2IwffwTKve5g"/>
+                        <element xmi:type="esb:PropertyMediatorOutputConnector" href="Kafka_API.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VOkzKUV2Ee2IwffwTKve5g" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_VOYl4UV2Ee2IwffwTKve5g"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_VOYl4kV2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_VOYl40V2Ee2IwffwTKve5g"/>
+                      <element xmi:type="esb:PropertyMediator" href="Kafka_API.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VOYl5EV2Ee2IwffwTKve5g" x="397" y="38" width="84" height="115"/>
+                    </children>
+                    <children xmi:type="notation:Node" xmi:id="_VO9NoEV2Ee2IwffwTKve5g" type="3739">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_VO9NpUV2Ee2IwffwTKve5g" type="5209"/>
+                      <children xmi:type="notation:Node" xmi:id="_VPJa4EV2Ee2IwffwTKve5g" type="3740">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_VPJa4UV2Ee2IwffwTKve5g"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_VPJa4kV2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_VPJa40V2Ee2IwffwTKve5g"/>
+                        <element xmi:type="esb:RespondMediatorInputConnector" href="Kafka_API.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.4/@inputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VPJa5EV2Ee2IwffwTKve5g" x="-6" y="-5"/>
+                      </children>
+                      <children xmi:type="notation:Node" xmi:id="_VPJa5UV2Ee2IwffwTKve5g" type="3741">
+                        <styles xmi:type="notation:DescriptionStyle" xmi:id="_VPJa5kV2Ee2IwffwTKve5g"/>
+                        <styles xmi:type="notation:FontStyle" xmi:id="_VPJa50V2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+                        <styles xmi:type="notation:LineStyle" xmi:id="_VPJa6EV2Ee2IwffwTKve5g"/>
+                        <element xmi:type="esb:RespondMediatorOutputConnector" href="Kafka_API.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.4/@outputConnector"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VPJa6UV2Ee2IwffwTKve5g" x="64" y="-9"/>
+                      </children>
+                      <styles xmi:type="notation:DescriptionStyle" xmi:id="_VO9NoUV2Ee2IwffwTKve5g"/>
+                      <styles xmi:type="notation:FontStyle" xmi:id="_VO9NokV2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+                      <styles xmi:type="notation:LineStyle" xmi:id="_VO9No0V2Ee2IwffwTKve5g"/>
+                      <element xmi:type="esb:RespondMediator" href="Kafka_API.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.4"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VO9NpEV2Ee2IwffwTKve5g" x="521" y="38" width="84" height="115"/>
+                    </children>
+                    <styles xmi:type="notation:TitleStyle" xmi:id="_VJI5kEV2Ee2IwffwTKve5g" showTitle="true"/>
+                  </children>
+                  <styles xmi:type="notation:DescriptionStyle" xmi:id="_VJI5i0V2Ee2IwffwTKve5g"/>
+                  <styles xmi:type="notation:FontStyle" xmi:id="_VJI5jEV2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+                  <styles xmi:type="notation:LineStyle" xmi:id="_VJI5jUV2Ee2IwffwTKve5g"/>
+                  <element xmi:type="esb:MediatorFlow" href="Kafka_API.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VJI5jkV2Ee2IwffwTKve5g"/>
+                </children>
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_VJI5gUV2Ee2IwffwTKve5g"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_VJI5gkV2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_VJI5g0V2Ee2IwffwTKve5g"/>
+                <element xmi:type="esb:ProxyServiceSequenceAndEndpointContainer" href="Kafka_API.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VJI5hEV2Ee2IwffwTKve5g"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_VJI5hUV2Ee2IwffwTKve5g" type="3488">
+                <styles xmi:type="notation:DescriptionStyle" xmi:id="_VJI5hkV2Ee2IwffwTKve5g"/>
+                <styles xmi:type="notation:FontStyle" xmi:id="_VJI5h0V2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+                <styles xmi:type="notation:LineStyle" xmi:id="_VJI5iEV2Ee2IwffwTKve5g"/>
+                <element xmi:type="esb:ProxyServiceFaultContainer" href="Kafka_API.esb#//@server/@children.0/@resources.0/@container/@faultContainer"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VJI5iUV2Ee2IwffwTKve5g"/>
+              </children>
+              <styles xmi:type="notation:DescriptionStyle" xmi:id="_VI8sVUV2Ee2IwffwTKve5g"/>
+              <styles xmi:type="notation:FontStyle" xmi:id="_VI8sVkV2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+              <styles xmi:type="notation:LineStyle" xmi:id="_VI8sV0V2Ee2IwffwTKve5g"/>
+              <element xmi:type="esb:ProxyServiceContainer" href="Kafka_API.esb#//@server/@children.0/@resources.0/@container"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VI8sWEV2Ee2IwffwTKve5g"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_VIqYYUV2Ee2IwffwTKve5g"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_VIqYYkV2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_VIqYY0V2Ee2IwffwTKve5g"/>
+            <element xmi:type="esb:APIResource" href="Kafka_API.esb#//@server/@children.0/@resources.0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VIqYZEV2Ee2IwffwTKve5g" width="300" height="400"/>
+          </children>
+        </children>
+        <element xmi:type="esb:SynapseAPI" href="Kafka_API.esb#//@server/@children.0"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VIR94UV2Ee2IwffwTKve5g" width="640" height="500"/>
+      </children>
+    </children>
+    <styles xmi:type="notation:DescriptionStyle" xmi:id="_SnJd4UV2Ee2IwffwTKve5g"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_SnJd4kV2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_SnJd40V2Ee2IwffwTKve5g"/>
+    <element xmi:type="esb:EsbServer" href="Kafka_API.esb#//@server"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SnJd5EV2Ee2IwffwTKve5g"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_R-_4wUV2Ee2IwffwTKve5g"/>
+  <element xmi:type="esb:EsbDiagram" href="Kafka_API.esb#/"/>
+  <edges xmi:type="notation:Connector" xmi:id="_VSrQAEV2Ee2IwffwTKve5g" type="4001" source="_VI8sRUV2Ee2IwffwTKve5g" target="_VKYPoEV2Ee2IwffwTKve5g" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_VSrQAUV2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="Kafka_API.esb#//@server/@children.0/@resources.0/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VSrQAkV2Ee2IwffwTKve5g" points="[6, 5, -5, 0]$[5, 0, -6, -5]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_VTV-YEV2Ee2IwffwTKve5g" type="4001" source="_VKYPpUV2Ee2IwffwTKve5g" target="_VM275kV2Ee2IwffwTKve5g" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_VTV-YUV2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="Kafka_API.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.0/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VTV-YkV2Ee2IwffwTKve5g" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_VTiLoEV2Ee2IwffwTKve5g" type="4001" source="_VM2760V2Ee2IwffwTKve5g" target="_VNnw4EV2Ee2IwffwTKve5g" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_VTiLoUV2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="Kafka_API.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.1/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VTiLokV2Ee2IwffwTKve5g" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_VT0fgEV2Ee2IwffwTKve5g" type="4001" source="_VNnw5UV2Ee2IwffwTKve5g" target="_VOkzIEV2Ee2IwffwTKve5g" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_VT0fgUV2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="Kafka_API.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.2/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VT0fgkV2Ee2IwffwTKve5g" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_VT6mIEV2Ee2IwffwTKve5g" type="4001" source="_VOkzJUV2Ee2IwffwTKve5g" target="_VPJa4EV2Ee2IwffwTKve5g" roundedBendpointsRadius="5" routing="Rectilinear">
+    <styles xmi:type="notation:FontStyle" xmi:id="_VT6mIUV2Ee2IwffwTKve5g" fontName="Segoe UI"/>
+    <element xmi:type="esb:EsbLink" href="Kafka_API.esb#//@server/@children.0/@resources.0/@container/@sequenceAndEndpointContainer/@mediatorFlow/@children.3/@outputConnector/@outgoingLink"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VT6mIkV2Ee2IwffwTKve5g" points="[-11, 0, 69, 0]$[-74, 0, 6, 0]"/>
+  </edges>
+</notation:Diagram>

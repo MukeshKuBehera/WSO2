@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/enrich" name="Enrich_API" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="POST">
+        <inSequence>
+            <enrich>
+                <source clone="true" type="inline">{&#xd;
+"id":3,&#xd;
+"name":"Book3"&#xd;
+}</source>
+                <target action="child" xpath="json-eval($.books)"/>
+            </enrich>
+            <log level="full">
+                <property expression="json-eval($.books)" name="Books"/>
+            </log>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>
